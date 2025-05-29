@@ -84,8 +84,8 @@ main {
 .btn {
   display: block;
   cursor: pointer;
-  padding: 0.8em 1.4em;
   font-weight: 500;
+  padding: 0.4em 1em;
   font-size: 0.9rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;

@@ -1,80 +1,119 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://optimuss1996.github.io/portfolio',
+  title: 'AS.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Ali Salahi',
   role: 'Front End Developer',
   description:
     'Front End Developer with a passion for creating responsive and user-friendly web applications. Experienced in modern JavaScript frameworks and UI/UX best practices. Committed to writing clean, maintainable code and building engaging user experiences.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/ali-salahi-8308582b3',
     github: 'https://github.com/Optimuss1996',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'BeatPlay',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Modern music player with playlist management and audio visualization, built using Next.js.',
+    image: '/images/previewPhoto/BeatPlay.jpg',
+    sourceCode: 'https://github.com/Optimuss1996/BeatPlay',
+    livePreview: 'https://beat-play.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'TripJet',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Travel booking platform with flight, hotel, and car rental search, chatbot support, and booking.',
+    image: '/images/previewPhoto/TripJet.jpg',
+    sourceCode: 'https://github.com/Optimuss1996/TripJet',
+    livePreview: 'https://trip-jet-peach.vercel.app/',
   },
   {
-    name: 'Project 3',
+    name: 'ResponsiveBank',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Responsive banking website with account management, fund transfers, and statement viewing.',
+    image: '/images/previewPhoto/ResponsiveBank.jpg',
+    sourceCode: 'https://github.com/Optimuss1996/ResponsiveBank',
+    livePreview: 'https://hoobank.liara.run/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'Tailwind',
-  'ShadCN UI',
-  'Git',
-  'GitHub',
-  'GitLab',
-  'Next.js',
-  'Supabase',
-  'Figma',
-  'Responsive Design',
-  'UI/UX Design',
-  'Zustand',
-  'Zod',
-  'React Hook Form',
-  'React Router',
-  'React Query',
-  'React Hook Form',
+  {
+    name: 'HTML',
+    icon: '/images/skills/html.png',
+  },
+  {
+    name: 'CSS',
+    icon: '/images/skills/css.png',
+  },
+  {
+    name: 'JavaScript',
+    icon: '/images/skills/js.png',
+  },
+  {
+    name: 'TypeScript',
+    icon: '/images/skills/typescript.png',
+  },
+  {
+    name: 'React',
+    icon: '/images/skills/react.png',
+  },
+  {
+    name: 'Redux',
+    icon: '/images/skills/redux.png',
+  },
+  {
+    name: 'Tailwind',
+    icon: '/images/skills/tailwind.png',
+  },
+  {
+    name: 'ShadCN UI',
+    icon: '/images/skills/shadcn.png',
+  },
+  {
+    name: 'Daisy UI',
+    icon: '/images/skills/daisyui.png',
+  },
+  {
+    name: 'Git',
+    icon: '/images/skills/git.png',
+  },
+  {
+    name: 'GitHub',
+    icon: '/images/skills/github.png',
+  },
+  {
+    name: 'GitLab',
+    icon: '/images/skills/gitlab.png',
+  },
+  {
+    name: 'Next.js',
+    icon: '/images/skills/next.jpg',
+  },
+  {
+    name: 'Supabase',
+    icon: '/images/skills/supabase.png',
+  },
+  {
+    name: 'Zustand',
+    icon: '/images/skills/zustand.png',
+  },
+  {
+    name: 'React Router',
+    icon: '/images/skills/reactRouter.png',
+  },
+  {
+    name: 'React Query',
+    icon: '/images/skills/reactQuery.png',
+  },
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'alisalahii19951195@gmail.com',
 }
 
