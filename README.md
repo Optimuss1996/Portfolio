@@ -1,177 +1,51 @@
-# Portfolio | وبسایت شخصی
+# Portfolio Website | وبسایت شخصی
 
 <div dir="rtl">
 
 ## درباره پروژه
 
-این وبسایت شخصی با استفاده از React.js ساخته شده است و هدف آن معرفی تخصص‌ها، مهارت‌ها و تجربیات من است. این پروژه با استفاده از تکنولوژی‌های مدرن وب طراحی شده و دارای رابط کاربری زیبا و واکنش‌گرا می‌باشد.
+وبسایت شخصی ساخته شده با React.js برای نمایش مهارت‌ها و تجربیات.
 
-### امکانات
+### امکانات اصلی
 
-- 🎯 معرفی حرفه‌ای
-- 💼 نمایش نمونه کارها
-- 📚 لیست مهارت‌ها و تخصص‌ها
-- 📝 رزومه و سوابق کاری
-- 📱 طراحی واکنش‌گرا (ریسپانسیو)
-- 🌙 قابلیت تغییر تم (روشن/تاریک)
+- 🎯 معرفی حرفه‌ای و رزومه
+- 💼 نمونه کارها
+- 📱 طراحی واکنش‌گرا
+- 🌙 حالت شب/روز
 
-### لینک‌های ارتباطی
+### لینک‌ها
 
+- [نمونه زنده](https://alisalahi.vercel.app)
 - [LinkedIn](https://www.linkedin.com/in/ali-salahi-8308582b3)
-- [Portfolio](https://www.linkedin.com/in/ali-salahi-8308582b3)
 
 </div>
 
-## About The Project
+## Tech Stack & Setup
 
-This personal portfolio website is built using React.js to showcase my expertise, skills, and experiences. The project is designed using modern web technologies and features a beautiful, responsive user interface.
-
-### Features
-
-- Professional introduction
-- Portfolio showcase
-- Skills & expertise listing
-- Resume & work experience
-- Responsive design
-- Theme switching (Light/Dark mode)
-
-### Connect With Me
-
-- [LinkedIn](https://www.linkedin.com/in/ali-salahi-8308582b3)
-- [Portfolio](https://www.linkedin.com/in/ali-salahi-8308582b3)
-
-## 🛠 Tech Stack
+### Technologies
 
 - React.js
-- HTML5
-- CSS3
+- HTML5/CSS3
 - JavaScript (ES6+)
-- Yarn package manager
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
 - Yarn
 
-### Installation
+### Quick Start
 
 ```bash
-# Clone the repository
-git clone [your-repo-link]
-
-# Navigate to project directory
-cd portfolio
-
 # Install dependencies
 yarn install
 
-# Start development server
+# Start development
 yarn start
-```
 
-### Building for Production
-
-```bash
-# Create production build
+# Build for production
 yarn build
-
-# Deploy to GitHub Pages
-yarn deploy
 ```
-
-## 📝 Configuration
-
-Edit `src/portfolio.js` to update the website content with your personal information:
-
-- Personal details
-- Skills
-- Projects
-- Work experience
-- Contact information
-
-## 📱 Responsive Design
-
-The website is fully responsive and optimized for:
-
-- Desktop devices
-- Tablets
-- Mobile phones
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## 📫 Contact
-
-Ali Salahi - [LinkedIn](https://www.linkedin.com/in/ali-salahi-8308582b3)
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-# Cleanfolio
-
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rjshkhr/cleanfolio-minimal).
 
 ## Preview
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rjshkhr.github.io/cleanfolio)
+[![Portfolio Preview](https://i.imgur.com/FwDMNEM.gif)](https://alisalahi.vercel.app)
 
-[Live Demo](https://rjshkhr.github.io/cleanfolio)
+## License
 
-## Instructions
-
-### Setup
-
-```shell
-git clone https://github.com/rjshkhr/cleanfolio
-cd cleanfolio
-```
-
-If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
-
-```shell
-nvm install
-nvm use
-```
-
-Or:
-
-```shell
-fnm install
-fnm use
-```
-
-To install and launch the project, run these commands:
-
-```shell
-yarn
-yarn start
-```
-
-### How to Use
-
-- Open the `public/index.html` file and replace:
-
-`<title>John Smith</title>` with `<title>Your Name</title>`.
-
-- Open the `src/portfolio.js` file and make the necessary changes.
-
-### Deployment
-
-- In the `package.json` file, update:
-
-`"homepage": "https://rjshkhr.github.io/cleanfolio"`
-
-to `"homepage": "https://yourusername.github.io"`.
-
-- Push the changes to your repository.
-
-- To build and deploy, run the following commands:
-
-```shell
-yarn build
-yarn deploy
-```
+MIT License
