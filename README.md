@@ -1,24 +1,15 @@
-# Portfolio Website | وبسایت شخصی
+# Portfolio Website
 
-<div dir="rtl">
+## About
 
-## درباره پروژه
+A personal portfolio website built with React.js to showcase skills and experiences.
 
-وبسایت شخصی ساخته شده با React.js برای نمایش مهارت‌ها و تجربیات.
+### Key Features
 
-### امکانات اصلی
-
-- 🎯 معرفی حرفه‌ای و رزومه
-- 💼 نمونه کارها
-- 📱 طراحی واکنش‌گرا
-- 🌙 حالت شب/روز
-
-### لینک‌ها
-
-- [نمونه زنده](https://alisalahi.vercel.app)
-- [LinkedIn](https://www.linkedin.com/in/ali-salahi-8308582b3)
-
-</div>
+- 🎯 Professional Introduction & Resume
+- 💼 Project Showcase
+- 📱 Responsive Design
+- 🌙 Dark/Light Theme
 
 ## Tech Stack & Setup
 
@@ -42,9 +33,39 @@ yarn start
 yarn build
 ```
 
-## Preview
+## Personalization Guide
 
-[![Portfolio Preview](https://i.imgur.com/FwDMNEM.gif)](https://alisalahi.vercel.app)
+### Steps to Make It Your Own
+
+1. Edit `src/portfolio.js` with your information:
+
+   - Name and professional title
+   - Skills and expertise
+   - Projects and portfolio items
+   - Work experience
+   - Contact details
+
+2. Update `public/index.html`:
+
+   - Change page title
+   - Update meta descriptions
+
+3. Replace images in `src/assets` directory
+
+4. Modify `package.json`:
+
+   - Update project name
+   - Change repository URL
+
+5. Deployment:
+
+   ```bash
+   # Build for production
+   yarn build
+
+   # Upload to your hosting service
+   # or use services like Vercel/Netlify
+   ```
 
 ## License
 
