@@ -6,14 +6,14 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Ali Salahi',
+  role: 'Front End Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Front End Developer with a passion for creating responsive and user-friendly web applications. Experienced in modern JavaScript frameworks and UI/UX best practices. Committed to writing clean, maintainable code and building engaging user experiences.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    github: 'https://github.com/Optimuss1996',
   },
 }
 
@@ -55,17 +55,27 @@ const skills = [
   'TypeScript',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'Tailwind',
+  'ShadCN UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'GitLab',
+  'Next.js',
+  'Supabase',
+  'Figma',
+  'Responsive Design',
+  'UI/UX Design',
+  'Zustand',
+  'Zod',
+  'React Hook Form',
+  'React Router',
+  'React Query',
+  'React Hook Form',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'alisalahii19951195@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
