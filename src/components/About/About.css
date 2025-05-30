@@ -21,6 +21,13 @@
   margin-top: 2.4em;
 }
 
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
 .about .link--icon {
   margin-right: 0.8em;
 }

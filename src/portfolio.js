@@ -28,7 +28,7 @@ const projects = [
     name: 'TripJet',
     description:
       'Travel booking platform with flight, hotel, and car rental search, chatbot support, and booking.',
-    image: '/images/previewPhoto/TripJet.jpg',
+    image: '/images/previewPhoto/Tripjet.jpg',
     sourceCode: 'https://github.com/Optimuss1996/TripJet',
     livePreview: 'https://trip-jet-peach.vercel.app/',
   },
